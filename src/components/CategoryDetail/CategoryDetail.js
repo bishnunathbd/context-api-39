@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
 
-const CategoryDetail = (props) => {
-  const {name} = props.product;
+const CategoryDetail = ({product}) => {
+  // const {product} = props;
+  // const {name} = props.product;
+  const {name} = product;
 
   return (
     <div>
